@@ -7,10 +7,10 @@ import csv
 
 #API Keys required for supporting the usage of the Twitter APIs
 #Access and Consumer keys and secret for authenticating this script to work with the Twitter API
-consumer_key = "Xs5EJgjAKUlDE1kNfdQzxDNup"
-consumer_secret = "l7klsxg5ExgdMhZCjVci6jIc4sVlzbAluoRxmom5Q8fQZRU04G"
-access_token = "1036170770928480256-R71a96rc6OLJOFZ1eV2Kv88hb9U7xu"
-access_token_secret = "jgQ6AhoAqRnkm89M0XaSTDXPv5JC9OvOI9fsu3LHOWDf4"
+consumer_key = "Your Consumer Key>"
+consumer_secret = "Your Consumer Secret Key>"
+access_token = "Your Access Token Key>"
+access_token_secret = "<Your Access Token Secret Key>"
 
 #Authenticating with Twitter for using its API provided he above keys
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
